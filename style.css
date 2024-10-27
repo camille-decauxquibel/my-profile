@@ -1,0 +1,152 @@
+/* Colors and fonts */
+
+body {
+	background-color: #EEEEEE;
+	color: #222831;
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 1.2px; 
+
+}
+
+h1 {
+	color: #FF5722;
+	font-family: Courier;
+	font-size: 30px;
+	font-size: lighter;
+	line-height: 1.1px; 
+	letter-spacing:1.5px;
+
+}
+
+h2 {
+	color: #F6C90E;
+	font-family: Courier;
+	font-size: 25px;
+	font-size: lighter;
+	line-height: 1.1px; 
+	letter-spacing:1.8px;
+
+}
+
+a {
+	color: #024CAA;
+	text-decoration:none;
+	transition: color 0.3s ease;
+	
+}
+
+
+a:hover {
+  color: mediumpurple;
+  text-decoration: none;
+}
+
+.img-circle{ 
+  border-radius: 50%;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+}
+
+.title-green {
+
+	color: green;
+}
+
+.list-underline {
+
+	text-decoration: underline;
+}
+
+.container{
+	width: 700px; 
+	margin: 0px auto;
+}
+
+@media (max-width: 960px) {
+  
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  
+  .container {
+    width: 500px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+	.card-white{
+		background: white;
+		padding: 30px;                             
+		border-radius: 4px; 
+		box-shadow: 0 10px 30px rgba(0,0,0,.1);
+		margin-top: 10px;
+		text-align: center;
+	}
+
+
+
+.card-white h2 {
+	margin-bottom: 40px;
+}
+
+
+
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#introduction img {
+	margin-bottom: 20px;
+}
+
+
+
+.btn-blue{
+	background-color: skyblue;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	margin-top:40px;
+}
+
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+
+
+.list-inline {
+  list-style: none; 
+  padding-left: 0px; 
+}
+
+
+.list-inline > li {
+  display: inline; 
+  padding: 0px 20px; 
+}
+
+
+
+
+
+
+
+
+
+
